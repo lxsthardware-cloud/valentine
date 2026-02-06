@@ -30,7 +30,6 @@ if (envelopeCaptionEl) envelopeCaptionEl.textContent = CONFIG.envelopeCaption;
 
 title.textContent = CONFIG.question;
 catImg.src = CONFIG.catBefore;
-finalText.innerHTML = CONFIG.finalTextHtml;
 
 // Open Envelope
 envelope.addEventListener("click", () => {
